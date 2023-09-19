@@ -2,7 +2,7 @@
     <h3>Pokemon Picture</h3>
     <div class="pokemon-container">
         <img v-if="!showPokemon" class="hidden-pokemon" :src="imgSrc" alt="Pokemon">
-        <img v-if="showPokemon" class="fade-in" :src="imgSrc" alt="Pokemon">
+        <img v-else class="fade-in" :src="imgSrc" alt="Pokemon">
     </div>
 </template>
 
